@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71804141F9E6D1F005A0425 /* MyProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71804131F9E6D1F005A0425 /* MyProductsCell.swift */; };
 		F78F2A171F992EAA004A0CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F2A161F992EAA004A0CE1 /* AppDelegate.swift */; };
 		F78F2A191F992EAA004A0CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F2A181F992EAA004A0CE1 /* ViewController.swift */; };
 		F78F2A1C1F992EAA004A0CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78F2A1A1F992EAA004A0CE1 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		F78F2A241F992EAA004A0CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78F2A221F992EAA004A0CE1 /* LaunchScreen.storyboard */; };
 		F78F2A2F1F992EAA004A0CE1 /* TocaDeObjetosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F2A2E1F992EAA004A0CE1 /* TocaDeObjetosTests.swift */; };
 		F78F2A3A1F992EAA004A0CE1 /* TocaDeObjetosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F2A391F992EAA004A0CE1 /* TocaDeObjetosUITests.swift */; };
+		F7A2C30C1F9E5E8B006C1CB9 /* UserAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2C30B1F9E5E8B006C1CB9 /* UserAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F71804131F9E6D1F005A0425 /* MyProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductsCell.swift; sourceTree = "<group>"; };
 		F78F2A131F992EAA004A0CE1 /* TocaDeObjetos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TocaDeObjetos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78F2A161F992EAA004A0CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F78F2A181F992EAA004A0CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		F78F2A351F992EAA004A0CE1 /* TocaDeObjetosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TocaDeObjetosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78F2A391F992EAA004A0CE1 /* TocaDeObjetosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TocaDeObjetosUITests.swift; sourceTree = "<group>"; };
 		F78F2A3B1F992EAA004A0CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A2C30B1F9E5E8B006C1CB9 /* UserAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F71804111F9E6CDE005A0425 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F71804121F9E6CF6005A0425 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F71804131F9E6D1F005A0425 /* MyProductsCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F78F2A0A1F992EAA004A0CE1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +120,9 @@
 			children = (
 				F78F2A161F992EAA004A0CE1 /* AppDelegate.swift */,
 				F78F2A181F992EAA004A0CE1 /* ViewController.swift */,
+				F71804121F9E6CF6005A0425 /* Views */,
+				F71804111F9E6CDE005A0425 /* models */,
+				F7A2C30B1F9E5E8B006C1CB9 /* UserAccountViewController.swift */,
 				F78F2A1A1F992EAA004A0CE1 /* Main.storyboard */,
 				F78F2A201F992EAA004A0CE1 /* Assets.xcassets */,
 				F78F2A221F992EAA004A0CE1 /* LaunchScreen.storyboard */,
@@ -263,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F78F2A191F992EAA004A0CE1 /* ViewController.swift in Sources */,
+				F71804141F9E6D1F005A0425 /* MyProductsCell.swift in Sources */,
+				F7A2C30C1F9E5E8B006C1CB9 /* UserAccountViewController.swift in Sources */,
 				F78F2A171F992EAA004A0CE1 /* AppDelegate.swift in Sources */,
 				F78F2A1F1F992EAA004A0CE1 /* TocaDeObjetos.xcdatamodeld in Sources */,
 			);
@@ -433,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WEP9UKL7GT;
 				INFOPLIST_FILE = TocaDeObjetos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appTroca.com.TocaDeObjetos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WEP9UKL7GT;
 				INFOPLIST_FILE = TocaDeObjetos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appTroca.com.TocaDeObjetos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
